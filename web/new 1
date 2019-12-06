@@ -1,0 +1,17 @@
+polyfills operation
+///for bind
+
+function f1(a,b){ console.log(this.x+a+b)}
+o={ x:10}
+
+Function.prototype.mybind=Function(...arg1)
+{ return Function(...arg2){ } 
+
+}
+
+
+
+async and differ in html script tag
+async parallely loading js file and stop rendering html and execute the js file
+in differ js file loaded parallel and execute after html rendering
+
